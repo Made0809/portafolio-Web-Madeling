@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="Proyectos | Madeling Rivera" />
+  <meta name="description" content="Proyectos desarrollados por Madeling Rivera: sitios web modernos, interfaces responsivas y experiencias digitales centradas en el usuario." />
+  <meta name="keywords" content="Madeling Rivera, frontend developer, proyectos web, portafolio frontend, HTML, CSS, JavaScript, desarrollo responsive, UI, UX" />
+  <meta name="author" content="Madeling Rivera" />
+  <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon">
+  <title>Proyectos | Madeling Rivera</title>
+  <link rel="stylesheet" href="../css/proyectos.css" />
+</head>
+<body>
+  <body>
+  <!-- NAVBAR -->
+  <header class="navbar" role="banner" aria-label="Barra de navegación principal">
+    <div class="logo" aria-label="Logotipo del portafolio Made">MADE</div>
+
+    <nav class="nav-links" role="navigation" aria-label="Enlaces de navegación principales">
+      <ul>
+        <li><a href="../index.html" class="active" aria-current="page">INICIO</a></li>
+        <li><a href="proyectos.html">PROYECTOS</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+
+    <!-- controles derecha: dark toggle + menu -->
+    <div class="nav-controls" role="group" aria-label="Controles de navegación">
+      <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar entre modo claro y oscuro" title="Cambiar tema">
+        <span class="moon" aria-hidden="true">🌙</span>
+      </button>
+
+      <!-- Botón menú móvil -->
+      <div class="menu-btn" id="menu-btn" aria-label="Abrir menú móvil" role="button" tabindex="0" title="Abrir menú">
+        <div class="bar" aria-hidden="true"></div>
+        <div class="bar" aria-hidden="true"></div>
+        <div class="bar" aria-hidden="true"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menú lateral con botón de cierre -->
+  <nav class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Menú móvil">
+    <div class="mobile-header">
+      <div class="avatar">
+        <img src="../img/imgBanner.jpg" alt="Foto de Madeling Rivera" />
+      </div>
+      <h3>Made Rivera</h3>  
+      <p>Frontend</p>
+    </div>
+    <ul class="mobile-links">
+      <li><a href="../index.html" class="active" aria-current="page">INICIO</a></li>
+      <li><a href="proyectos.html">PROYECTOS</a></li>
+      <li><a href="contacto.html">CONTACTO</a></li>
+    </ul>
+    <div class="mobile-social" aria-label="Redes sociales">
+      <a href="https://www.facebook.com/madeling.rive" target="_blank" rel="noopener" aria-label="Facebook">
+        <img src="../img/icon-facebook.svg" alt="Facebook">
+      </a>
+      <a href="tel:62892855" aria-label="Teléfono">
+        <img src="../img/icon-tel.png" alt="Teléfono">
+      </a>
+      <a href="https://wa.me/50662892855" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <img src="../img/icon-whatsapp.png" alt="WhatsApp">
+      </a>
+    </div>
+  </nav>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <div class="contenedor">
+    <!-- Flecha izquierda -->
+    <button class="btn prev">&#10094;</button>
+
+    <!-- Carrusel -->
+    <div class="carrusel-contenedor">
+      <div class="carrusel">
+        <a target="_blank" href="https://made0809.github.io/Atemporate/" class="card" data-bg="../img/proyecto1.jpg">
+          <img src="../img/proyecto1.jpg" alt="Landing Page moderna" />
+          <h3>Landing Page Interactiva</h3>
+        </a>
+        <a target="_blank" href="https://made0809.github.io/smartware/" class="card" data-bg="../img/proyecto2.jpg">
+          <img src="../img/proyecto2.jpg" alt="App de reservas" />
+          <h3>App de Reservas</h3>
+        </a>
+        <a target="_blank" href="https://gestioncultural-alajuelita.netlify.app/" class="card" data-bg="../img/proyecto3.webp">
+          <img src="../img/proyecto3.webp" alt="Sitio responsive" />
+          <h3>Sitio Web Responsive</h3>
+        </a>
+        <a href="https://sehan.netlify.app/"><div class="card" data-bg="../img/sehan.png">
+          <img src="../img/sehan.png" alt="Dashboard UI" />
+          <h3>Dashboard UI</h3>
+        </div></a>
+      </div>
+    </div>
+
+    <!-- Flecha derecha -->
+    <button class="btn next">&#10095;</button>
+
+    <!-- Texto descriptivo -->
+    <div class="texto">
+      <h1>Mis proyectos</h1>
+      <p>Cada uno de mis proyectos refleja mi enfoque en la experiencia del usuario, la optimización y el diseño limpio. Me encanta transformar ideas en sitios web funcionales y visualmente atractivos, combinando creatividad con código estructurado.</p>
+      <a href="contacto.html"><button>Contáctame</button></a>
+    </div>
+  </div>
+
+  <script src="../js/proyectos.js"></script>
+</body>
+</html>

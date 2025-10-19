@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="Portafolio de Madeling Rivera | Desarrolladora Web y QA" />
+  <meta name="description" content="Bienvenida al portafolio de Madeling Rivera. Descubre mis proyectos, experiencia en desarrollo web y aseguramiento de calidad de software." />
+  <meta name="keywords" content="Madeling Rivera, desarrolladora web, frontend, QA, portafolio, proyectos web, HTML, CSS, JavaScript" />
+  <meta name="author" content="Madeling Rivera" />
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+  <title>Portafolio Made</title>
+  <link rel="stylesheet" href="../PortafolioWeb-Made/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar" role="banner" aria-label="Barra de navegación principal">
+    <div class="logo" aria-label="Logotipo del portafolio Made">MADE</div>
+
+    <nav class="nav-links" role="navigation" aria-label="Enlaces de navegación principales">
+      <ul>
+        <li><a href="index.html" class="active" aria-current="page">INICIO</a></li>
+        <li><a href="HTML/proyectos.html">PROYECTOS</a></li>
+        <li><a href="HTML/contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+
+    <!-- controles derecha: dark toggle + menu -->
+    <div class="nav-controls" role="group" aria-label="Controles de navegación">
+      <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar entre modo claro y oscuro" title="Cambiar tema">
+        <span class="moon" aria-hidden="true">🌙</span>
+      </button>
+
+      <!-- Botón menú móvil -->
+      <div class="menu-btn" id="menu-btn" aria-label="Abrir menú móvil" role="button" tabindex="0" title="Abrir menú">
+        <div class="bar" aria-hidden="true"></div>
+        <div class="bar" aria-hidden="true"></div>
+        <div class="bar" aria-hidden="true"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menú lateral con botón de cierre -->
+  <nav class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Menú móvil">
+    <div class="mobile-header">
+      <div class="avatar">
+        <img src="../img/banner-made.jpg" alt="Foto de Madeling Rivera" />
+      </div>
+      <h3>Made Rivera</h3>  
+      <p>Frontend</p>
+    </div>
+    <ul class="mobile-links">
+      <li><a href="index.html" class="active" aria-current="page">INICIO</a></li>
+      <li><a href="HTML/proyectos.html">PROYECTOS</a></li>
+      <li><a href="HTML/contacto.html">CONTACTO</a></li>
+    </ul>
+    <div class="mobile-social" aria-label="Redes sociales">
+      <a href="https://www.facebook.com/madeling.rive" target="_blank" rel="noopener" aria-label="Facebook">
+        <img src="../img/icon-facebook.svg" alt="Facebook">
+      </a>
+      <a href="tel:62892855" aria-label="Teléfono">
+        <img src="../img/icon-tel.png" alt="Teléfono">
+      </a>
+      <a href="https://wa.me/50662892855" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <img src="../img/icon-whatsapp.png" alt="WhatsApp">
+      </a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero" role="region" aria-label="Sección de inicio o presentación personal">
+    <div class="hero-content">
+      <div class="hero-img" role="img" aria-label="Imagen de presentación del portafolio">
+        <p class="front-text">PORTAFOLIO</p>
+        <div class="bg-text" aria-hidden="true">
+          <p>PORTAFOLIO</p>
+          <p>PORTAFOLIO</p>
+          <p>PORTAFOLIO</p>
+        </div>
+        <img src="../PortafolioWeb-Made/img/imgBanner.jpg" alt="Foto de perfil de Madeling Rivera" title="Madeling Rivera - Desarrolladora Frontend y QA">
+      </div>
+
+      <div class="hero-text">
+        <h2>MADE</h2>
+        <p>Desarrolladora Frontend apasionada por el diseño y la tecnología. Creo interfaces modernas y funcionales con atención al detalle.</p>
+        <a href="#proyectos" class="btn" aria-label="Ver proyectos destacados">Ver Proyectos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section class="cards-section" role="region" aria-label="Habilidades técnicas">
+    <h2>Habilidades</h2>
+    <div class="cards-wrapper">
+      <div class="card-item" role="article" aria-label="Habilidad en HTML">
+        <img src="../PortafolioWeb-Made/img/html.jpg" alt="Logotipo de HTML" />
+        <div class="card-info">
+          <h3>HTML</h3>
+          <p>Estructuras limpias y semánticas.</p>
+        </div>
+      </div>
+      <div class="card-item" role="article" aria-label="Habilidad en CSS">
+        <img src="../PortafolioWeb-Made/img/css.jpg" alt="Logotipo de CSS" />
+        <div class="card-info">
+          <h3>CSS</h3>
+          <p>Diseños responsivos y modernos.</p>
+        </div>
+      </div>
+      <div class="card-item" role="article" aria-label="Habilidad en JavaScript">
+        <img src="../PortafolioWeb-Made/img/js.jpg" alt="Logotipo de JavaScript" />
+        <div class="card-info">
+          <h3>JavaScript</h3>
+          <p>Interactividad y animaciones.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section class="about" role="region" aria-label="Acerca de Madeling Rivera">
+    <div class="overlay">
+      <h2>Acerca de mí</h2>
+      <p>
+        Soy <strong>Madeling</strong>, desarrolladora Frontend especializada en
+        <strong>HTML, CSS y JavaScript</strong>. Me formé en el <strong>INA</strong> y me apasiona diseñar y construir páginas web creativas, modernas y funcionales.
+      </p>
+    </div>
+  </section>
+
+  <!-- CARRUSEL -->
+  <section id="proyectos" class="triple-section" role="region" aria-label="Carrusel de proyectos destacados">
+    <div class="triple-container">
+      <h2 class="triple-title">Proyectos</h2>
+      <div class="triple-carousel" role="group" aria-roledescription="Carrusel de imágenes de proyectos">
+        <div class="triple-stage">
+          <div class="triple-slide active">
+            <a href="https://made0809.github.io/Atemporate/" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto VitalBite">
+              <img src="../PortafolioWeb-Made/img/proyecto1.jpg" alt="Proyecto VitalBite desarrollado por Madeling Rivera">
+            </a>
+          </div>
+          <div class="triple-slide next">
+            <a href="https://made0809.github.io/smartware/" target="_blank" rel="noopener noreferrer" aria-label="Ver tienda Atemporarte">
+              <img src="../PortafolioWeb-Made/img/proyecto2.jpg" alt="Proyecto Atemporarte, tienda artesanal online">
+            </a>
+          </div>
+          <div class="triple-slide prev">
+            <a href="https://gestioncultural-alajuelita.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="Ver sitio SEHAN Beauty">
+              <img src="../PortafolioWeb-Made/img/proyecto3.webp" alt="Sitio web SEHAN Beauty creado por Madeling Rivera">
+            </a>
+          </div>
+          <div class="triple-slide hidden">
+            <a href="https://sehan.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="Ver portafolio completo de Madeling Rivera">
+              <img src="../PortafolioWeb-Made/img/sehan.png" alt="Vista previa del portafolio profesional de Madeling Rivera">
+            </a>
+          </div>
+        </div>
+        <div class="triple-dots" role="tablist" aria-label="Indicadores del carrusel">
+          <div class="triple-dot active" role="tab" aria-selected="true" data-index="0"></div>
+          <div class="triple-dot" role="tab" aria-selected="false" data-index="1"></div>
+          <div class="triple-dot" role="tab" aria-selected="false" data-index="2"></div>
+          <div class="triple-dot" role="tab" aria-selected="false" data-index="3"></div>
+        </div>
+      </div>
+      <a href="HTML/proyectos.html"><button class="btn-carrusel" aria-label="Ver más proyectos de Madeling Rivera">Ver más</button></a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <h2>MADELING RIVERA</h2>
+        <p>Desarrolladora Web</p>
+      </div>
+
+      <div class="footer-links" aria-label="Enlaces del pie de página">
+        <a href="index.html">Inicio</a>
+        <a href="HTML/proyectos.html">Proyectos</a>
+        <a href="HTML/contacto.html">Contacto</a>
+      </div>
+
+      <div class="footer-icons" aria-label="Redes sociales en el pie de página">
+        <a href="https://www.facebook.com/madeling.rive" target="_blank" rel="noopener" aria-label="Facebook">
+          <img src="img/icon-facebook.svg" alt="Facebook">
+        </a>
+        <a href="tel:62892855" aria-label="Teléfono">
+          <img src="img/icon-tel.png" alt="Teléfono">
+        </a>
+        <a href="https://wa.me/50662892855" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <img src="img/icon-whatsapp.png" alt="WhatsApp">
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Madeling Rivera. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/scrip.js"></script>
+</body>
+</html>

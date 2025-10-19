@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio | Madeling Rivera</title>
+
+  <!-- SEO básico -->
+  <meta name="description" content="Portafolio profesional de Madeling Rivera, desarrolladora web frontend especializada en diseño y experiencia de usuario.">
+  <meta name="keywords" content="Madeling Rivera, portafolio web, frontend, desarrolladora web, diseño web, proyectos web, contacto">
+  <meta name="author" content="Madeling Rivera">
+  <link rel="canonical" href="https://tusitio.com/contacto.html">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="../css/contacto.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar" role="banner">
+    <div class="logo" aria-label="Logotipo de Madeling Rivera">MADE</div>
+
+    <nav class="nav-links" aria-label="Menú principal de navegación">
+      <ul>
+        <li><a href="../index.html" class="active" aria-current="page">INICIO</a></li>
+        <li><a href="proyectos.html">PROYECTOS</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+
+    <!-- controles derecha: dark toggle + menu -->
+    <div class="nav-controls">
+      <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema de color">
+        <span class="moon" aria-hidden="true">🌙</span>
+      </button>
+
+      <!-- Botón menú móvil -->
+      <div class="menu-btn" id="menu-btn" aria-label="Abrir menú móvil" role="button" tabindex="0">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menú lateral con botón de cierre -->
+  <!-- Menú lateral con botón de cierre -->
+  <nav class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Menú móvil">
+    <div class="mobile-header">
+      <div class="avatar">
+        <img src="../img/imgBanner.jpg" alt="Foto de Madeling Rivera" />
+      </div>
+      <h3>Made Rivera</h3>  
+      <p>Frontend</p>
+    </div>
+    <ul class="mobile-links">
+      <li><a href="../index.html" class="active" aria-current="page">INICIO</a></li>
+      <li><a href="proyectos.html">PROYECTOS</a></li>
+      <li><a href="contacto.html">CONTACTO</a></li>
+    </ul>
+    <div class="mobile-social" aria-label="Redes sociales">
+      <a href="https://www.facebook.com/madeling.rive" target="_blank" rel="noopener" aria-label="Facebook">
+        <img src="../img/icon-facebook.svg" alt="Facebook">
+      </a>
+      <a href="tel:62892855" aria-label="Teléfono">
+        <img src="../img/icon-tel.png" alt="Teléfono">
+      </a>
+      <a href="https://wa.me/50662892855" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <img src="../img/icon-whatsapp.png" alt="WhatsApp">
+      </a>
+    </div>
+  </nav>
+
+  <!-- SECCIÓN CONTACTO -->
+  <section id="contacto" class="contacto" aria-labelledby="titulo-contacto">
+    <h1 id="titulo-contacto">CONTÁCTAME</h1>
+    <div class="contact-container">
+      <div class="contact-box">
+       <form form action="https://formsubmit.co/madelingrivera08@gmail.com" method="POST" class="contact-form" id="contact-form" aria-label="Formulario de contacto">
+    <label for="nombre">Nombre</label>
+    <input id="nombre" type="text" placeholder="Tu nombre" aria-required="true" required>
+  
+    <label for="correo">Correo</label>
+    <input id="correo" type="email" placeholder="tuemail@gmail.com" aria-required="true" required>
+  
+    <label for="mensaje">Mensaje</label>
+    <textarea id="mensaje" placeholder="Escribe tu mensaje..." aria-required="true" required></textarea>
+  
+    <button type="submit" class="btn-enviar" aria-label="Enviar mensaje">ENVIAR</button>
+      </form>
+
+
+        <div class="contact-info" aria-label="Información de contacto">
+          <h3>Contacto</h3>
+          <p class="info">madelingrivera08@gmail.com</p>
+          <h3>Teléfono</h3>
+          <p class="info">6289-2855</p>
+          <div class="icons" aria-label="Iconos de contacto">
+            <a target="_blank" href="https://www.facebook.com/madeling.rive"><img src="../img/icon-facebook.svg" alt="Facebook"></a>
+            <a href="mailto:madelingrivera08@gmail.com"><img src="../img/icon-email.png" alt="Correo electrónico"></a>
+            <a href="tel:62892855"><img src="../img/icon-tel.png" alt="Llamar por teléfono"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARRUSEL -->
+  <section class="triple-section" aria-labelledby="titulo-proyectos">
+    <div class="triple-container">
+      <h2 id="titulo-proyectos" class="triple-title">Proyectos</h2>
+
+      <div class="triple-carousel" role="region" aria-label="Carrusel de proyectos">
+        <div class="triple-stage">
+          <!-- Slides -->
+          <div class="triple-slide active">
+            <a href="https://made0809.github.io/Atemporate/" target="_blank" rel="noopener noreferrer">
+              <img src="../img/proyecto1.jpg" alt="Proyecto 1: diseño moderno web" />
+            </a>
+          </div>
+          <div class="triple-slide next">
+            <a href="https://github.com/Made0809/Atemporate.git" target="_blank" rel="noopener noreferrer">
+              <img src="../img/proyecto2.jpg" alt="Proyecto 2: interfaz de aplicación móvil" />
+            </a>
+          </div>
+          <div class="triple-slide prev">
+            <a href="https://gestioncultural-alajuelita.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <img src="../img/proyecto3.webp" alt="Proyecto 3: desarrollo de sitio en GitHub" />
+            </a>
+          </div>
+          <div class="triple-slide hidden">
+            <a href="https://sehan.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <img src="../img/sehan.png" alt="Proyecto 4: diseño visual SEHAN" />
+            </a>
+          </div>
+        </div>
+
+        <!-- Dots -->
+        <div class="triple-dots" role="tablist" aria-label="Indicadores del carrusel">
+          <button class="triple-dot active" aria-label="Proyecto 1" aria-current="true"></button>
+          <button class="triple-dot" aria-label="Proyecto 2"></button>
+          <button class="triple-dot" aria-label="Proyecto 3"></button>
+          <button class="triple-dot" aria-label="Proyecto 4"></button>
+        </div>
+
+        <!-- Botón del carrusel -->
+        <a href="proyectos.html">
+          <button class="btn-carrusel" aria-label="Ver más proyectos">Ver más</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <h2>MADELING RIVERA</h2>
+        <p>Desarrolladora Web</p>
+      </div>
+
+      <div class="footer-links" aria-label="Enlaces del pie de página">
+        <a href="../index.html">Inicio</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+
+      <div class="footer-icons" aria-label="Redes sociales en el pie de página">
+        <a href="https://www.facebook.com/madeling.rive" target="_blank" rel="noopener" aria-label="Facebook">
+          <img src="../img/icon-facebook.svg" alt="Facebook">
+        </a>
+        <a href="tel:62892855" aria-label="Teléfono">
+          <img src="../img/icon-tel.png" alt="Teléfono">
+        </a>
+        <a href="https://wa.me/50662892855" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <img src="../img/icon-whatsapp.png" alt="WhatsApp">
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Madeling Rivera. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+
+  <script src="../js/scrip.js"></script>
+</body>
+</html>
